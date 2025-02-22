@@ -1,0 +1,48 @@
+.create-campaign-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.create-campaign-container h1 {
+    color: #185a9d;
+    margin-bottom: 10px;
+}
+
+.create-campaign-container p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.input-field {
+    width: 100%;
+    padding: 14px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #0072ff;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: #43cea2;
+    color: white;
+}
+
+button:hover {
+    background: #185a9d;
+    transform: scale(1.05);
+}
